@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<title>Untitled Document</title>
+<style>
+    body{
+        background-image: url(background.png);
+        background-position:center;
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+
+    }
+    .logo{
+        height: 50px;
+        cursor: pointer;
+    }
+    .button{
+        color:#fbfcfd;
+        padding: 10px 25px;
+        background: transparent;
+        outline: none;
+        border: 2px solid ;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: .3s;
+    }
+    .button:hover{
+            border: 2px solid;
+            padding: 10px 100px;
+            color: #fbfcfd;
+
+
+    }
+
+    .content{
+        font-weight: 500;
+         color: #fbfcfd;
+         position: absolute;
+         top:50%;
+         left: 8%;
+         transform: translateY(-50%);
+         z-index: 2;
+     }
+     .pic img{
+         width: 50px;
+         animation:pic 7s linear infinite;
+         overflow: hidden;
+     }
+     .pic{
+         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: -70px;
+       
+     }
+     @keyframes pic{
+         0%{
+             transform: translateY(0);
+             opacity: 0;
+         }
+         50%{
+             
+             opacity: 0;
+         }
+         70%{
+             
+             opacity: 1;
+         }
+         100%{
+             transform: translateY(-80vh);
+             opacity: 1;
+         }
+     }
+     .pic img:nth-child(1){
+         width: 25px;
+         animation-delay: 2s;
+     }
+     .pic img:nth-child(2){
+         animation-delay: 1s;
+     }
+     .pic img:nth-child(3){
+         animation-delay: 3s;
+         width: 25px;
+     }
+     .pic img:nth-child(4){
+         animation-delay: 4.5s;
+     }
+     .pic img:nth-child(5){
+         animation-delay: 3s;
+     }
+     .pic img:nth-child(6){
+         width: 20px;
+         animation-delay: 6s;
+     }.pic img:nth-child(7){
+        width: 30px;
+         animation-delay: 7s;
+     }
+</style>
+<body>
+<div class="container">
+    <img src="logo.png" class="logo">
+</div>
+<div  class="content">
+<small>Welcome to our</small>
+<h1 class="text">World's</h1>
+<h1 class="text">Creative Studio</h1>
+<button type="button" class="button">Take Tour</button>
+</div>
+<div class="pic">
+    <img src="bubble.png">
+    <img src="bubble.png">
+    <img src="bubble.png">
+    <img src="bubble.png">
+    <img src="bubble.png">
+    <img src="bubble.png">
+    <img src="bubble.png">
+</div>
+</body>
+</html>

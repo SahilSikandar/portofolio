@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: Kumbh Sans;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, #D1913C , #FFD194);
+    padding: 0%;
+    position: fixed;
+}
+.left-items-wrapper{
+    float: left;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right-items-wrapper{
+    float: right;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#item{
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1000ms;
+}
+#item:hover{
+    background-color: lightcyan;
+    color: red;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+#search-box{
+    border-style: solid;
+    border-color: white;
+    border-color: whitesmoke;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, .0)
+
+}
+
+#item-search{
+    color:whi;
+    padding: 8px 8px;
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+#logo{
+    color:black;
+    font-family: Raleway;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.image{
+    background-image: url(bg.jpg);
+    padding-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+}
+#big-name{
+    color: black;
+    margin-left: 30% ;
+    margin-right: 50% ;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Raleway;
+    margin-bottom: 20px;
+}
+.products{
+    align-items: center;
+    width: 100%;
+    background-color:burlywood;
+    padding-top: 30px;
+    height: 500px;
+    display: flex;
+}
+#product-heading{
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+.pro1{
+    background-image: url(first.png);
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px gray;
+    text-align: center;
+}
+.pro2{
+    background-image: url(second.png);
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px gray;
+    text-align: center;
+}
+.pro3{
+    background-image: url(third.png);
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px gray;
+    text-align: center;
+}
+#c-name{
+    font-weight: bolder;
+    text-decoration: black;
+    color: white;
+    text-decoration: none;
+}
+.about{
+    text-align: center;
+}
+.ab-head{
+    background-color: burlywood;
+    padding-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.both{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.right-section{
+    background-color: #FFD194;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    padding-top: 10px;
+}
+.left-section{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    height: 380px;
+    padding-top: 30px;
+    
+}
+#sub-btn{
+    color: #FFD194;
+    padding:8px 4px 8px 4px;
+    border-radius: 2px;
+    border: 1px solid #FFD194;
+    background-color: rgba(0, 0, 0, .0);
+    padding: 15px 8px 15px 8px;
+    Transition: all;
+    transition-duration: 1000ms;
+}
+#sub-btn:hover{
+    background-color: #FFD194;
+    color: white;
+}
+
+#email{
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid #FFD194;
+    padding: 15px 180px 15px 10px;
+    margin: 20px;
+}
+#mail{
+    margin-top: 50px;
+}
+#footer{
+    text-align: center;
+    background-color: #FFD194;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 50px;
+}
+#desc{
+    margin-top: 100px;
+    color: white;
+}
+#buy{
+    border-radius: 8px;
+    color: #FFD194;
+    padding:8px 4px 8px 4px;
+    border-radius: 2px;
+    border: 1px solid #FFD194;
+    background-color: rgba(0, 0, 0, .0);
+    padding: 15px 8px 15px 8px;
+    Transition: all;
+    transition-duration: 1000ms;
+    
+}
+#buy:hover{
+    background-color: #FFD194;
+    color: white;
+    cursor: pointer;
+}
